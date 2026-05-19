@@ -8,3 +8,7 @@
 <img width="1160" height="608" alt="Image" src="https://github.com/user-attachments/assets/02473036-324f-4668-b19d-4bc585f0ce70" />
 <img width="1113" height="595" alt="Image" src="https://github.com/user-attachments/assets/db5f27c1-535d-4ac2-97f3-f7782f33db9e" />
 <img width="888" height="349" alt="Image" src="https://github.com/user-attachments/assets/687959b0-ba3f-44d9-be0d-18e11cd657f0" />
+
+# OBJECTIVE
+
+The main objective of this project is to analyze personal expenses and visualize spending patterns using data analytics techniques. The project helps in understanding expense categories, monthly spending habits, payment method usage, and savings analysis through charts and graphs. It also helps improve financial management and decision-making.
