@@ -18,3 +18,65 @@
 # OBJECTIVE
 
 The main objective of this project is to analyze personal expenses and visualize spending patterns using data analytics techniques. The project helps in understanding expense categories, monthly spending habits, payment method usage, and savings analysis through charts and graphs. It also helps improve financial management and decision-making.
+
+# SOURCE CODE
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load dataset
+df = pd.read_csv("expenses.csv")
+
+# Display first rows
+print(df.head())
+
+# Dataset information
+print(df.info())
+
+# Check missing values
+print(df.isnull().sum())
+
+# Convert Date column
+df['Date'] = pd.to_datetime(df['Date'])
+
+# Expense Category Distribution
+category_expense = df.groupby('Category')['Amount'].sum()
+
+category_expense.plot(kind='pie', autopct='%1.1f%%')
+
+plt.title("Expense Category Distribution")
+plt.ylabel("")
+
+plt.show()
+
+# Monthly Spending Analysis
+monthly_expense = df.groupby(df['Date'].dt.month)['Amount'].sum()
+
+monthly_expense.plot(kind='bar')
+
+plt.title("Monthly Spending")
+plt.xlabel("Month")
+plt.ylabel("Amount")
+
+plt.show()
+
+# Payment Mode Analysis
+payment_mode = df.groupby('Payment_Mode')['Amount'].sum()
+
+payment_mode.plot(kind='bar')
+
+plt.title("Payment Mode Usage")
+plt.xlabel("Payment Mode")
+plt.ylabel("Amount")
+
+plt.show()
+
+# Savings Analysis
+income = 10000
+
+total_expense = df['Amount'].sum()
+
+savings = income - total_expense
+
+print("Total Expense:", total_expense)
+
+print("Savings:", savings)
