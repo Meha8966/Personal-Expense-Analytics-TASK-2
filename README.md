@@ -1,4 +1,10 @@
 # Personal-Expense-Analytics-TASK-2
+# NAME:MEHA MARY SAMUVEL
+# DOMAIN:DATA ANALYTICS
+# DURATION:4 WEEKS
+# INTERN ID:CITS712
+# PROJECT 2: Personal-Expense-Analytics
+# INTERN PERIOD: 17TH MAY-14JUNE
 
 <img width="1393" height="319" alt="Image" src="https://github.com/user-attachments/assets/8ceea831-b35e-4f06-a469-ae9c97a463c2" />
 <img width="793" height="124" alt="Image" src="https://github.com/user-attachments/assets/00cf791d-3fd6-4603-b154-4a8e34029c3c" />
