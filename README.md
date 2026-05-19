@@ -6,6 +6,7 @@
 # PROJECT 2: Personal-Expense-Analytics
 # INTERN PERIOD: 17TH MAY-14JUNE
 
+# OUTPUT 
 <img width="1393" height="319" alt="Image" src="https://github.com/user-attachments/assets/8ceea831-b35e-4f06-a469-ae9c97a463c2" />
 <img width="793" height="124" alt="Image" src="https://github.com/user-attachments/assets/00cf791d-3fd6-4603-b154-4a8e34029c3c" />
 <img width="946" height="315" alt="Image" src="https://github.com/user-attachments/assets/d2e570ce-f427-4b75-bdca-c0a97715f42a" />
